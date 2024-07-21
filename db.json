@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "email": "example@gmail.com",
+      "password": "example",
+      "id": "e637"
+    }
+  ],
+  "students": [
+    {
+      "id": "1",
+      "firstName": "John",
+      "lastName": "Doe",
+      "group": "A"
+    },
+    {
+      "id": "2",
+      "firstName": "Mark",
+      "lastName": "Smith",
+      "group": "B"
+    }
+  ],
+  "teachers": [
+    {
+      "id": "1",
+      "firstName": "John",
+      "lastName": "Doe",
+      "level": "Senior",
+      "group": "Group 1"
+    },
+    {
+      "id": "2",
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "level": "Middle",
+      "group": "Group 2"
+    },
+    {
+      "id": "3",
+      "firstName": "Jim",
+      "lastName": "Brown",
+      "level": "Junior",
+      "group": "Group 3"
+    }
+  ]
+}
