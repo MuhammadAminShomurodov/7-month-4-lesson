@@ -1,7 +1,8 @@
-import { Navigate } from "react-router-dom";
+import { Route, Navigate } from "react-router-dom";
 
 const PrivateRoute = ({ element: Component }) => {
-  const isAuthenticated = localStorage.getItem("isAuthenticated") === "true";
+  const isAuthenticated = Boolean(localStorage.getItem("authToken")); // Replace with your actual authentication logic
+
   return isAuthenticated ? <Component /> : <Navigate to="/login" />;
 };
 
